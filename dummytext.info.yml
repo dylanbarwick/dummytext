@@ -1,0 +1,5 @@
+name: 'Dummytext'
+type: module
+description: 'A simple plugin that will insert a set number of dummy text paragraphs into the editor.'
+package: 'ckeditor5 plugins'
+core_version_requirement: ^10

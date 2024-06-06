@@ -1,0 +1,18 @@
+# @see core/modules/ckeditor5/ckeditor5.ckeditor5.yml
+# @see https://www.drupal.org/project/ckeditor5_dev
+dummytext_dummy_text:
+  # Configuration that will be sent to CKEditor 5 JavaScript plugins.
+  ckeditor5:
+    plugins:
+      - dummyText.DummyText
+
+  # Configuration that will be used directly by Drupal.
+  drupal:
+    label: 'Dummy text'
+    library: dummytext/dummy_text
+    admin_library: dummytext/admin.dummy_text
+    toolbar_items:
+      dummyText:
+        label: 'Dummy text'
+    # The plugin does not provide elements.
+    elements: false
